@@ -1,0 +1,110 @@
+<!-- Right Column: Skills, Hobbies, Languages, References -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume with Adjustments</title>
+    <!-- Bootstrap CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Підключення EasyPieChart -->
+    <script src="/js/jquery.easypiechart.min.js" rel="stylesheet"></script>
+</head>
+<body>
+
+
+
+<!-- Header Section -->
+<header class="container bg-light py-2">
+    <div class="row">
+        <div class="col-md-8">
+            <div>
+                <div class="header-text display-2 fw-bold  text-muted">RALPH S. GARCIA</div>
+                <div class="subheader-text mb-4 h3" style="color: #5a9996">Graphic & Web Designer <span>__________</span></div>
+            </div>
+            <div class="text-white py-3 px-4" style="background: #5a9996">
+                <div class="container">
+                    <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p class="fst-italic">"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 photo-container">
+            <img src="/image/black_man_img.jpg" alt="Profile Picture" class="img-fluid position-relative" style="width: 100%; height: 100%; object-fit: cover; ">
+        </div>
+    </div>
+</header>
+
+<!-- Resume Section -->
+<div class="container mt-4">
+    <div class="row">
+        <!-- Left Column: Education & Job Experience -->
+        <div class="col-md-8">
+            <h3 class="section-title section-line">
+                <i class="icon-with-underline bi-person-workspace"></i> <button class="collapsible">EDUCATION</button>
+            </h3>
+            <div class="content" id="education"></div>
+            <h3 class="section-title section-line">
+                <i class="icon-with-underline bi-hammer"></i> <button class="collapsible">JOB EXPERIENCE</button>
+            </h3>
+            <div class="content" id="job-experience"></div>
+            <footer class="contact">
+                <div class="contact-container">
+                    <div class="contact-item" data-url="tel:+380508485120">
+                        <i class="bi bi-telephone-fill"></i>+380-50-848-51-20
+                    </div>
+                    <div class="contact-item" data-url="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                        <i class="bi bi-globe"></i> www.yourwebsite.com
+                    </div>
+                    <div class="contact-item full-width" data-url="https://www.google.com/maps?q=769+Prudence+Street,+Lincoln+Park,+MI+48146">
+                        <i class="bi bi-geo-alt-fill"></i> 769 Prudence Street Lincoln Park, MI 48146
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- Right Column: Skills, Hobbies, Languages, References -->
+        <div class="col-md-4">
+            <h3 class="section-title section-line">
+                <i class="icon-with-underline bi-pie-chart-fill"></i><button class="collapsible">SKILLS</button>
+            </h3>
+            <div class="content" id="skills"></div>
+            <h3 class="section-title section-line">
+                <i class="icon-with-underline bi-flag"></i><button class="collapsible">HOBBIES</button>
+            </h3>
+            <div class="content" id="hobbies"></div>
+            <h3 class="section-title section-line ">
+                <i class="bi-book icon-with-underline"></i> <button class="collapsible triggerAnimation"> LANGUAGES</button>
+            </h3>
+            <div class="content">
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="progress-circle" data-target="circle1" data-percent="85" data-text="English">
+                        <div class="circle-content">
+                            <span>85%<br>English</span>
+                        </div>
+                    </div>
+                    <div class="progress-circle" data-target="circle1" data-percent="65" data-text="German">
+                        <div class="circle-content">
+                            <span>65%<br>German</span>
+                        </div>
+                    </div>
+                    <div class="progress-circle" data-target="circle1" data-percent="45" data-text="Spanish">
+                        <div class="circle-content">
+                            <span>45%<br>Spanish</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 class="section-title section-line">
+                <i class="bi bi-person-workspace icon-with-underline"></i><button class="collapsible">REFERENCES</button>
+            </h3>
+            <div class="content" id="references"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/js/scripts.min.js" rel="stylesheet"></script>
+</body>
+</html>
